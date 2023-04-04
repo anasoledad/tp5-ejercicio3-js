@@ -1,0 +1,24 @@
+main{
+    min-height: calc(100vh - 56px - 78px);
+}
+ul {
+    list-style: none;
+}
+#btnAgregar{
+    width: 140px;
+    height: 38px;
+}
+
+
+.bg-listado{
+    min-height: 270px;
+    min-width: 190px;
+}
+
+@media screen and (min-width: 360px){
+    .bg-listado{
+        min-height: 270px;
+        min-width: 302px;
+    }
+   
+}
