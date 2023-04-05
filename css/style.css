@@ -1,5 +1,11 @@
-main{
-    min-height: calc(100vh - 56px - 78px);
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    margin-top: auto;
 }
 ul {
     list-style: none;
@@ -20,5 +26,4 @@ ul {
         min-height: 270px;
         min-width: 302px;
     }
-   
 }
